@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <script
+      src="https://kit.fontawesome.com/b473162ab5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="img">
+          <img
+            id="one"
+            src="/images/bg-pattern-desktop.svg"
+            alt=""
+            width="750rem"
+          />
+          <img
+            id="two"
+            src="/images/illustration-woman-online-desktop.svg"
+            alt=""
+          />
+        </div>
+        <div class="faq">
+          <h1>FAQ</h1>
+          <section class="question-1">
+            <div onclick="check()" class="main-text-1">
+              <h4 id="main-1">How many team members can I invite?</h4>
+              <i id="chck1" class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="one-hidden">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </section>
+          <section class="question-2">
+            <div onclick="check2()" class="main-text-2">
+              <h4 id="main-2">What is the maximum file upload size?</h4>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="two-hidden">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </section>
+          <section class="question-3">
+            <div onclick="check3()" class="main-text-3">
+              <h4 id="main-3">How do I reset my password?</h4>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="three-hidden">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </section>
+          <section class="question-4">
+            <div onclick="check4()" class="main-text-4">
+              <h4 id="main-4">Can I cancel my subscription?</h4>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="four-hidden">
+              Yes! Send us a message and we'll process your request no questions
+              asked.
+            </p>
+          </section>
+          <section class="question-5">
+            <div onclick="check5()" class="main-text-5">
+              <h4 id="main-5">Do you provide additional support?</h4>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="five-hidden">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+    <img id="three" src="/images/illustration-box-desktop.svg" alt="" />
+
+    <script src="index.js"></script>
+  </body>
+</html>

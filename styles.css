@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --main-font: 'Kumbh Sans', sans-serif;
+
+    --devide-color: hsl(240, 5%, 91%);
+    --text-color-12: hsl(238, 29%, 16%);
+    --text-color-21: hsl(14, 88%, 65%);
+    --bg-gradient-color-1: hsl(273, 75%, 66%);
+    --bg-gradient-color-2: hsl(240, 73%, 65%);
+    --text-color-1: hsl(237, 12%, 33%);
+    --text-color-2: hsl(240, 6%, 50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh', sans-serif;
+    background-image: linear-gradient(var(--bg-gradient-color-1), var(--bg-gradient-color-2));
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    padding: 14rem;
+    background-color: #fff;
+    width: 65rem;
+    height: 37rem;
+    border-radius: 1.5em;
+    overflow: hidden;
+}
+
+.faq {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(75%, -50%);
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.faq h1 {
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+    color: var(--text-color-1);
+}
+
+#one {
+    transform: translate(-37rem, -20rem);
+}
+
+#two {
+    transform: translate(-19.5rem, -52rem);
+}
+
+
+#three {
+    transform: translate(20rem, 27rem);
+}
+
+.one-hidden {
+    padding-top: 1rem;
+    font-size: .85rem;
+    width: 90%;
+    color: var(--text-color-2);
+    display: none;
+}
+
+.two-hidden {
+    padding-top: 1rem;
+    font-size: .85rem;
+    width: 90%;
+    color: var(--text-color-2);
+    display: none;
+}
+
+.three-hidden {
+    padding-top: 1rem;
+    font-size: .85rem;
+    width: 99%;
+    color: var(--text-color-2);
+    display: none;
+}
+
+.four-hidden {
+    padding-top: 1rem;
+    font-size: .85rem;
+    width: 99%;
+    color: var(--text-color-2);
+    display: none;
+}
+
+.five-hidden {
+    padding-top: 1rem;
+    font-size: .85rem;
+    width: 99%;
+    color: var(--text-color-2);
+    display: none;
+}
+
+.question-1 {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(240, 6%, 50%, 0.5);
+}
+
+.question-1 h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color-2);
+    cursor: pointer;
+}
+
+.question-2 {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(240, 6%, 50%, 0.5);
+}
+
+.question-2 h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color-2);
+    cursor: pointer;
+}
+
+.question-3 {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(240, 6%, 50%, 0.5);
+}
+
+.question-3 h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color-2);
+    cursor: pointer;
+}
+
+.question-4 {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(240, 6%, 50%, 0.5);
+}
+
+.question-4 h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color-2);
+    cursor: pointer;
+}
+
+.question-5 {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(240, 6%, 50%, 0.5);
+}
+
+.question-5 h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color-2);
+    cursor: pointer;
+}
+
+.main-text-1 i {
+    color: var(--text-color-21);
+    cursor: pointer;
+}
+
+.main-text-2 i {
+    color: var(--text-color-21);
+    cursor: pointer;
+}
+
+.main-text-3 i {
+    color: var(--text-color-21);
+    cursor: pointer;
+}
+
+.main-text-4 i {
+    color: var(--text-color-21);
+    cursor: pointer;
+}
+
+.main-text-5 i {
+    color: var(--text-color-21);
+    cursor: pointer;
+}
+
+
+.main-text-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text h4 {
+    padding-right: 10rem;
+}
